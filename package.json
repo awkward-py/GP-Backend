@@ -2,11 +2,9 @@
   "name": "gpksp-api",
   "main": "index.js",
   "type": "module",
- "scripts": {
-  "dev": "node --watch --env-file=.env index.js",
-  "start": "node index.js",
-  "vercel-build": "echo 'No build step required for this project'"
-},
+"scripts": {
+    "dev": "node --watch --env-file=.env index.js"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.7",
